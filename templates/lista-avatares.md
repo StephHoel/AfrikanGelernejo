@@ -5,6 +5,7 @@
 > *Brock O'Hurn* é **Atticus Hunter Odinson**
 > *Diamond White* é **Princesa Ayana Abrahamsen**
 > *Lily Kruk* é **Abayomi Jendayi Ibrahim**
+> *Ne-Yo* é **Akin Adetokumbo**
 > *Sadie Sink* é **Calliope Torres Hoel (Panda vermelho gigante de Red)**
 > *Sofia Carson* é **Allirea Saturnyne**
 .
