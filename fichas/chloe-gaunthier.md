@@ -51,6 +51,9 @@ Narrador:
 > Negócios: Nível 0 (0 de 300)
 > Química: Nível 0 (0 de 300)
 > Sociologia: Nível 0 (0 de 300)
+> 
+> Canto: Nível 0 (0 de 300)
+> Piano: Nível 0 (0 de 300)
 .
 
 Narrador:
@@ -62,6 +65,13 @@ Narrador:
 > 1 Notebook 15"
 > 1 Mochila para Notebook
 > 1 Nanotraje
+.
+
+Narrador:
+> ***Grade de Horários***
+> 
+> Canto - SEG/QUA/SEX - de 15hs as 18hs
+> Piano - TER/QUI/SÁB - de 15hs as 18hs
 .
 
 Narrador:
