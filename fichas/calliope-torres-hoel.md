@@ -47,6 +47,11 @@
 > Negócios: Nível 0 (0 de 300)
 > Química: Nível 0 (0 de 300)
 > Sociologia: Nível 0 (0 de 300)
+> 
+> Artes Cênicas: Nível 0 (0 de 300)
+> Hip Hop: Nível 0 (0 de 300)
+> Piano: Nível 0 (0 de 300)
+> Violão: Nível 0 (0 de 300)
 .
 
 ***!!! Inventário !!!***
@@ -57,6 +62,16 @@
 > 1 Notebook 15"
 > 1 Mochila para Notebook
 > 1 Nanotraje
+.
+
+Narrador:
+> ***Grade de Horários***
+> 
+> Artes Cênicas - SEG/QUA/SEX - de 15hs as 18hs
+> Hip Hop - TER - de 15hs as 18hs
+> Piano - QUI - de 15hs as 14:30hs
+> Violão - QUI - de 14:30hs as 18hs
+> Piano - SÁB - de 15hs as 18hs
 .
 
 ***!!! Conta Bancária !!!***
