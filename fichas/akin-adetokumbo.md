@@ -50,9 +50,12 @@ Narrador:
 > Negócios: Nível 0 (0 de 300)
 > Química: Nível 0 (0 de 300)
 > Sociologia: Nível 0 (0 de 300)
-.
 > 
-> Disciplina: Nível 0 (0 de 300)
+> Artes Cênicas: Nível 0 (0 de 300)
+> Capoeira: Nível 0 (0 de 300)
+> Hip-Hop: Nível 0 (0 de 300)
+> Vôlei: Nível 0 (0 de 300)
+.
 
 Narrador:
 ***!!! Inventário !!!***
@@ -68,7 +71,10 @@ Narrador:
 Narrador:
 > ***Grade de Horários***
 > 
-> Disciplina - SEG - de 15hs as 18hs (3hs/semana)
+> Capoeira - SEG/QUI - de 15hs as 18hs (6hs/semana)
+> Hip-Hop - TER - de 15hs as 18hs (3hs/semana)
+> Vôlei - QUA/SÁB - de 15hs as 18hs (6hs/semana)
+> Artes Cênicas - SEX - de 15hs as 17hs (2hs/semana)
 .
 
 Narrador:
