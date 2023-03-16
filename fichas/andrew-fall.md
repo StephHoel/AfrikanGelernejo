@@ -68,14 +68,14 @@ Narrador:
 .
 
 Narrador:
-***!!! Conta Bancária !!!***
-
-> Quantia Atual: MGA 400.000
-.
-
-Narrador:
 > ***Grade de Horários***
 > 
 > Programação - Seg/Qua/Sex, das 15 as 18h (9hs/semana)
 > Robótica - Ter/Qui/Sab, das 15 as 18h (9hs/semana)
+.
+
+Narrador:
+***!!! Conta Bancária !!!***
+
+> Quantia Atual: MGA 400.000
 .

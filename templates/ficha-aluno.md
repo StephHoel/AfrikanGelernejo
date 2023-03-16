@@ -12,7 +12,7 @@ Narrador:
 Narrador:
 > ***Grade de Horários***
 > 
-> Disciplina - SEG - de 15hs as 18hs
+> Disciplina - SEG - de 15hs as 18hs (3hs/semana)
 .
 
 Narrador:

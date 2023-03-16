@@ -67,11 +67,10 @@
 Narrador:
 > ***Grade de Horários***
 > 
-> Artes Cênicas - SEG/QUA/SEX - de 15hs as 18hs
-> Hip Hop - TER - de 15hs as 18hs
-> Piano - QUI - de 15hs as 14:30hs
-> Violão - QUI - de 14:30hs as 18hs
-> Piano - SÁB - de 15hs as 18hs
+> Artes Cênicas - SEG/QUA/SEX - de 15hs as 17hs (6hs/semana)
+> Violão - SEG/QUA/SÁB - de 17hs as 18hs (3hs/semana)
+> Hip Hop - TER - de 15hs as 18hs (3hs/semana)
+> Piano - QUI - de 15hs as 18hs / SEX - de 17hs as 18hs / SÁB - de 15hs as 17hs (6hs/semana)
 .
 
 ***!!! Conta Bancária !!!***

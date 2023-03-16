@@ -69,7 +69,7 @@ Narrador:
 Narrador:
 ***!!! Conta Bancária !!!***
 
-> Quantia Atual: MGA 4.000.000
+> Quantia Atual: MGA 2.000.000
 .
 
 Valor Inicial: 4.000.000

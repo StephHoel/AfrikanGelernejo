@@ -70,8 +70,8 @@ Narrador:
 Narrador:
 > ***Grade de Horários***
 > 
-> Canto - SEG/QUA/SEX - de 15hs as 18hs
-> Piano - TER/QUI/SÁB - de 15hs as 18hs
+> Canto - SEG/QUA/SEX - de 15hs as 18hs (9hs/semana)
+> Piano - TER/QUI/SÁB - de 15hs as 18hs (9hs/semana)
 .
 
 Narrador:

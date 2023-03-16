@@ -60,11 +60,6 @@ Aos 15 anos, Alli começou a tomar alguns comportamentos que foram mal vistos pe
 > 1 Nanotraje
 .
 
-***!!! Conta Bancária !!!***
-
-> Quantia Atual: MGA 400.000
-.
-
 Narrador:
 > ***Grade de Horários***
 > 
@@ -72,3 +67,9 @@ Narrador:
 > Esgrima - TER/SEX - de 15hs as 18hs (6 horas/semana)
 > Kizomba - QUI - de 15hs as 18hs (3 horas/semana)
 .
+
+***!!! Conta Bancária !!!***
+
+> Quantia Atual: MGA 400.000
+.
+

@@ -66,10 +66,10 @@ Narrador:
 Narrador:
 > ***Grade de Horários***
 > 
-> Patinação Artística no Gelo - SEG/TER/QUA/QUI/SEX - de 15hs as 17hs
-> Violino - SEG/QUA/SEX - de 17hs as 18hs
-> Violoncelo - TER/QUI/SÁB - de 17hs as 18hs
-> Artes Cênicas - SÁB - de 15hs as 17hs
+> Patinação Artística no Gelo - SEG/TER/QUA/QUI/SEX - de 15hs as 17hs (10hs/semana)
+> Violino - SEG/QUA/SEX - de 17hs as 18hs (3hs/semana)
+> Violoncelo - TER/QUI/SÁB - de 17hs as 18hs (3hs/semana)
+> Artes Cênicas - SÁB - de 15hs as 17hs (2hs/semana)
 .
 
 Narrador:
