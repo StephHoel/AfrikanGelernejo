@@ -22,7 +22,7 @@ Claro que como Arcana e com longevidade não pude ficar muito mais do que poucos
 
 Foi quando conheci Hunter e me apaixonei por aquele branquelo gostoso. Trocamos cartas por algumas cartas antes dele resolver vir atrás de mim. Pouco depois comecei a lecionar na Afrikan Gelernejo, a mesma escola onde tinha estudado, e uma década depois, me promoveram à diretora onde estou até hoje.
 
-Minha união com Hunter nos trouxe 15 lindos filhos até o momento, mas não duvido que venham mais pela frente, já que o mais novo tem 4 anos apenas.
+Minha união com Hunter nos trouxe 15 lindos filhos até o momento, mas não duvido que venham mais pela frente, já que os mais novos tem 8 anos.
 
 
 Narrador:

@@ -10,7 +10,7 @@
 
 **Animal:** 
 
-**Avatar:** Lily Kruk
+**Avatar:** Kristina Pimenova
 
 **História Resumida:** Abayomi Jendayi Ibrahim, conhecida também como Yomi pelos seus amigos, descende de uma tradicional e antiga família de Vampiros, que estão por aí, desde que o mundo é mundo e que ao contrário de alguns clãs de sua raça, os Ibrahim se mantiveram do lado dos sobrenaturais na guerra contra os caçadores. Aba, nunca foi uma criança quietinha, estava sempre brincando com o irmão e os primos, correndo por aí e até jogando bola com os meninos, por ser a única menina, no meio de toda aquela testosterona, ela sempre foi muito mimada pelos dois pais, até pelos irmãos e pelos primos. 
 
