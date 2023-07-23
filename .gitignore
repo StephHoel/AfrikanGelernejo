@@ -1,4 +1,9 @@
-/rascunho1.md
-/a-fazer.md
+# arquivos que ainda não devem subir
+rascunho1.md
+a-fazer.md
+ida-alaafin-ibrahim.md
+
+# pastas que não devem subir
+.vscode/
 node_modules/
-/.vscode
+build/
