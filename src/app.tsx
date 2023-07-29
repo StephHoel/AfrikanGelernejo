@@ -6,7 +6,7 @@ export default function App() {
   return (
     <Routes>
       {/* usar no local */}
-      {/* <Route path="/" index element={<Page />} /> */}
+      <Route path="/" index element={<Page />} />
 
       {/* usar quando subir */}
       <Route path="AfrikanGelernejo/" index element={<Page />} />
