@@ -1,7 +1,7 @@
 import { ReactNode } from 'react'
 
-export interface OnDataUpdateProps {
-  onDataUpdate: (data: string) => void
+export interface PageProps {
+  setPage: (data: string) => void
 }
 
 export interface ChildrenProps {
@@ -10,6 +10,6 @@ export interface ChildrenProps {
 
 export interface LinkProps {
   children: ReactNode
-  onDataUpdate: (data: string) => void
+  setPage: (data: string) => void
   href: string
 }

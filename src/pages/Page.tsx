@@ -10,20 +10,16 @@ import Temporary from './Temporary'
 export default function Page() {
   const [page, setPage] = useState('')
 
-  function handleChildData(data: string) {
-    setPage(data)
-  }
-
   return (
     <div className={`app min-h-screen text-[#f0f8ff] p-4 bg-[#2f4f4f]`}>
       <header className="flex justify-between w-[90vw] mx-auto">
-        <Header onDataUpdate={handleChildData} />
+        <Header setPage={setPage} />
       </header>
       <main className={`text-center ${page === '' ? ' my-auto' : 'mt-12'}`}>
         {page === 'historia' ? (
           <History />
         ) : page === 'regras' ? (
-          <Rules onDataUpdate={handleChildData} />
+          <Rules setPage={setPage} />
         ) : page === 'estagio' ? (
           <Intern />
         ) : page === 'bico' ? (

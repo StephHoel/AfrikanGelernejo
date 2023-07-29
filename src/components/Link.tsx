@@ -1,14 +1,12 @@
 import { LinkProps } from '../lib/Interfaces'
 
-export function Link({ children, onDataUpdate, href }: LinkProps) {
-  function handleDataUpdate(data: string) {
-    onDataUpdate(data)
-  }
+export function Link({ children, setPage, href }: LinkProps) {
   return (
     <p
-      className="cursor-pointer hover:text-green-500"
+      className="cursor-pointer  tablet:hover:text-green-500
+      laptop:hover:text-green-500"
       onClick={() => {
-        handleDataUpdate(href)
+        setPage(href)
       }}
     >
       {children}

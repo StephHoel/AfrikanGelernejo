@@ -1,4 +1,5 @@
-import { OnDataUpdateProps } from '../lib/Interfaces'
+import { PageProps } from '../lib/Interfaces'
+
 import Pericies from './rules/10_Pericies'
 import Jobs from './rules/11_Jobs'
 import SocialMedias from './rules/12_SocialMedias'
@@ -12,11 +13,7 @@ import Races from './rules/7_Races'
 import Habilities from './rules/8_Habilities'
 import Powers from './rules/9_Powers'
 
-export default function Rules({ onDataUpdate }: OnDataUpdateProps) {
-  function handleDataUpdate(data: string) {
-    onDataUpdate(data)
-  }
-
+export default function Rules({ setPage }: PageProps) {
   return (
     <div className="flex flex-col w-[80%] m-auto">
       <p className="text-6xl mb-8">Livro do Jogador</p>
@@ -32,17 +29,8 @@ export default function Rules({ onDataUpdate }: OnDataUpdateProps) {
         <Habilities />
         <Powers />
         <Pericies />
-        <Jobs onDataUpdate={handleDataUpdate} />
+        <Jobs setPage={setPage} />
         <SocialMedias />
-
-        {/* <div>
-              <p>
-                <a href="#11">11. Empregos</a>
-              </p>
-              <p>
-                <a href="#12">12. Redes Sociais</a>
-              </p>
-            </div> */}
       </div>
     </div>
   )

@@ -1,11 +1,8 @@
 import { Link } from '../../components/Link'
 import Toggle from '../../components/Toggle'
-import { OnDataUpdateProps } from '../../lib/Interfaces'
+import { PageProps } from '../../lib/Interfaces'
 
-export default function Jobs({ onDataUpdate }: OnDataUpdateProps) {
-  function handleDataUpdate(data: string) {
-    onDataUpdate(data)
-  }
+export default function Jobs({ setPage }: PageProps) {
   return (
     <Toggle title="11. Empregos">
       <div className="flex flex-col w-full m-auto space-y-8 text-justify mb-10">
@@ -29,7 +26,7 @@ export default function Jobs({ onDataUpdate }: OnDataUpdateProps) {
           para os problemas propostos pela empresa em que presta o serviço.
         </p>
 
-        <Link href="estagio" onDataUpdate={handleDataUpdate}>
+        <Link href="estagio" setPage={setPage}>
           <i className="ph ph-hand-pointing" /> Veja as vagas de Estágio aqui
         </Link>
 
@@ -40,7 +37,7 @@ export default function Jobs({ onDataUpdate }: OnDataUpdateProps) {
           de 20 anos (idade aparente de 16 anos).
         </p>
 
-        <Link onDataUpdate={handleDataUpdate} href={'bico'}>
+        <Link setPage={setPage} href={'bico'}>
           <i className="ph ph-hand-pointing" /> Veja as vagas de Emprego sem
           Vínculo aqui
         </Link>
@@ -50,7 +47,7 @@ export default function Jobs({ onDataUpdate }: OnDataUpdateProps) {
           diversos cargos e cada um deles têm seus próprios requisitos.
         </p>
 
-        <Link onDataUpdate={handleDataUpdate} href={'fixo'}>
+        <Link setPage={setPage} href={'fixo'}>
           <i className="ph ph-hand-pointing" /> Veja as vagas de Emprego Formal
           (Fixo) aqui
         </Link>

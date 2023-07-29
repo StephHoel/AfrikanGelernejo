@@ -26,6 +26,11 @@ html, body {
   grid-template-rows: min-content 1fr min-content;
 }
 
+.modal {
+  display: grid;
+  grid-template-columns: 1fr min-content;
+}
+
 a {
   text-decoration: none;
 }
