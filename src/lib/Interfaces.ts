@@ -13,3 +13,5 @@ export interface LinkProps {
   setPage: (data: string) => void
   href: string
 }
+
+export const scrollHeight = document.body.scrollHeight

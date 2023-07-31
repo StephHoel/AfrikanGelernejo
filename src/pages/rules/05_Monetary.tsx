@@ -1,10 +1,11 @@
+import { BackToTop } from '../../components/BackToTop'
 import { Discord } from '../../components/Mods'
 import Toggle from '../../components/Toggle'
 
 export default function Monetary() {
   return (
     <Toggle title="5. Sistema Monetário">
-      <div className="flex flex-col w-full m-auto space-y-8 text-justify mb-10">
+      <div className="flex flex-col w-full m-auto space-y-8 text-justify">
         <p>
           <span className="underline italic">5.</span>
           <span className="font-bold italic"> Monetário </span>
@@ -63,6 +64,7 @@ export default function Monetary() {
 
         <p>Qualquer dúvida é só entrar em contato com uma ADM.</p>
       </div>
+      <BackToTop />
     </Toggle>
   )
 }

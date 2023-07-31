@@ -21,7 +21,7 @@ html, body {
   font-size: 1.6rem;
 }
 
-.app {
+#app {
   display: grid;
   grid-template-rows: min-content 1fr min-content;
 }

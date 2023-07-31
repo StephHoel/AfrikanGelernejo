@@ -1,10 +1,11 @@
+import { BackToTop } from '../../components/BackToTop'
 import { Discord, Quote } from '../../components/Mods'
 import Toggle from '../../components/Toggle'
 
 export default function ClassesAndExperiences() {
   return (
     <Toggle title="4. Aulas e Experiências">
-      <div className="text-justify mb-10 w-full flex flex-col m-auto space-y-8">
+      <div className="text-justify w-full flex flex-col m-auto space-y-8">
         <p>
           <span className="underline italic">4.</span>
           <span className="font-bold italic"> Aulas e Experiências </span>
@@ -195,6 +196,7 @@ export default function ClassesAndExperiences() {
           proposta do treinamento.
         </p>
       </div>
+      <BackToTop />
     </Toggle>
   )
 }

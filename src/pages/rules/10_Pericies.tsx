@@ -1,3 +1,4 @@
+import { BackToTop } from '../../components/BackToTop'
 import { Academy } from '../../components/Pericies/Academy'
 import { Dance } from '../../components/Pericies/Dance'
 import { General } from '../../components/Pericies/General'
@@ -8,7 +9,7 @@ import Toggle from '../../components/Toggle'
 export default function Pericies() {
   return (
     <Toggle title="10. Perícias">
-      <div className="flex flex-col w-full m-auto space-y-8 text-justify mb-10">
+      <div className="flex flex-col w-full m-auto space-y-8 text-justify">
         <p>
           Como uma escola que prepara o estudante para o mundo, nada mais justo
           que o aluno tenha possibilidades de aprendizado das mais diversas
@@ -29,6 +30,7 @@ export default function Pericies() {
 
         <Sport />
       </div>
+      <BackToTop />
     </Toggle>
   )
 }

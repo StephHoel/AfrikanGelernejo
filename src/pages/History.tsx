@@ -3,7 +3,7 @@ export default function History() {
     <>
       <p className="text-6xl pb-8">A História</p>
 
-      <div className="border-none text-3xl flex flex-col w-[80%] m-auto text-justify space-y-6 pb-12">
+      <div className="text-3xl flex flex-col laptop:w-[80%] m-auto text-justify space-y-6 pb-12">
         <span className="font-bold">Ambientação</span>
         <span>
           A Afrikan Gelernejo fica numa pequena cidade conhecida como Ilu
@@ -37,8 +37,8 @@ export default function History() {
           tem o tamanho proporcional à quantidade de sobrenaturais da região.
           São elas:
         </span>
-        <div className="grid grid-cols-2 space-y-12 py-12">
-          <div className="grid w-3/4">
+        <div className="text-left no-laptop:space-y-8 laptop:grid laptop:grid-cols-2 laptop:py-8">
+          <div className="grid mx-4 laptop:mb-12">
             <span>
               → Nome: <span className="text-4xl">Afrikan Gelernejo </span>
             </span>
@@ -46,11 +46,11 @@ export default function History() {
             <span>→ Mascote: Tigre</span>
             <span>
               → Quantidade de Alunos: 25 mil (dos quais: 8 mil estão no Ensino
-              Básico, 10 mil estão no Ensino Médio e 7 mil na
-              Faculdade/Especialização)
+              Básico, 10 mil estão no Ensino Médio e 7 mil na Faculdade /
+              Especialização)
             </span>
           </div>
-          <div className="grid w-3/4">
+          <div className="grid mx-4 laptop:mb-12">
             <span>
               → Nome: <span className="text-4xl">Greenhouse High School</span>
             </span>
@@ -58,7 +58,7 @@ export default function History() {
             <span>→ Mascote: Águia</span>
             <span>→ Quantidade de Alunos: Desconhecido</span>
           </div>
-          <div className="grid w-3/4">
+          <div className="grid mx-4 laptop:mb-12">
             <span>
               → Nome: <span className="text-4xl">Colégio do Amanhã</span>
             </span>
@@ -66,7 +66,7 @@ export default function History() {
             <span>→ Mascote: Lobo</span>
             <span>→ Quantidade de Alunos: Desconhecido</span>
           </div>
-          <div className="grid w-3/4">
+          <div className="grid mx-4 laptop:mb-12">
             <span>
               → Nome: <span className="text-4xl">Asian Institute</span>
             </span>
@@ -74,7 +74,7 @@ export default function History() {
             <span>→ Mascote: Dragão</span>
             <span>→ Quantidade de Alunos: Desconhecido</span>
           </div>
-          <div className="grid w-3/4">
+          <div className="grid mx-4">
             <span>
               → Nome: <span className="text-4xl">King’s Academy</span>
             </span>
@@ -85,7 +85,7 @@ export default function History() {
               Básico e 3 mil estão no Ensino Médio)
             </span>
           </div>
-          <div className="grid w-3/4">
+          <div className="grid mx-4">
             <span>
               → Nome: <span className="text-4xl">Oceania Knowledge Center</span>
             </span>

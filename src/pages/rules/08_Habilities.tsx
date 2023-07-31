@@ -1,9 +1,10 @@
+import { BackToTop } from '../../components/BackToTop'
 import Toggle from '../../components/Toggle'
 
 export default function Habilities() {
   return (
     <Toggle title="8. Habilidades">
-      <div className="flex flex-col w-full m-auto space-y-8 text-justify mb-10">
+      <div className="flex flex-col w-full m-auto space-y-8 text-justify">
         <p>
           <span className="underline italic">8.</span>
           <span className="font-bold italic"> Habilidades </span>
@@ -69,6 +70,7 @@ export default function Habilities() {
           de Cura, Intuição, Percepção e Sobrevivência.
         </p>
       </div>
+      <BackToTop />
     </Toggle>
   )
 }

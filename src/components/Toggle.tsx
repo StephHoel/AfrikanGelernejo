@@ -1,5 +1,4 @@
 import { ReactNode, useState } from 'react'
-import { BackToTop } from './BackToTop'
 
 interface Props {
   title: string
@@ -21,12 +20,7 @@ export default function Toggle({ title, children }: Props) {
         </p>
       </div>
 
-      {isExpanded && (
-        <div className="mx-4 text-justify">
-          {children}
-          <BackToTop />
-        </div>
-      )}
+      {isExpanded && <div className="mx-4 text-justify">{children}</div>}
     </div>
   )
 }

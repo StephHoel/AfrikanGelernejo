@@ -1,10 +1,11 @@
-import { BackToTop } from '../components/BackToTop'
 import { Discord, Quote } from '../components/Mods'
 
 export default function Temporary() {
   return (
-    <div className="flex flex-col w-[80%] m-auto">
-      <p className="text-6xl mb-8 mx-auto">Vagas de Empregos Sem Vínculos</p>
+    <div className="flex flex-col laptop:w-[80%] m-auto">
+      <p className="text-6xl mini:text-5xl sm:text-5xl mb-8 mx-auto">
+        Vagas de Empregos Sem Vínculos
+      </p>
 
       <div className="m-auto text-justify w-full gap-12 pb-5 mb-10 space-y-4">
         <p>
@@ -139,8 +140,6 @@ export default function Temporary() {
           ambiente cabível desse tipo de evento por até 7 horas.
         </p>
       </div>
-
-      <BackToTop />
     </div>
   )
 }

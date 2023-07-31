@@ -1,10 +1,9 @@
-import { BackToTop } from '../components/BackToTop'
 import { Discord, Quote } from '../components/Mods'
 
 export default function Intern() {
   return (
-    <div className="flex flex-col w-[80%] m-auto">
-      <p className="text-6xl mb-8 mx-auto">Vagas de Estágio</p>
+    <div className="flex flex-col laptop:w-[80%] mx-auto">
+      <p className="text-6xl mini:text-5xl mb-8 mx-auto">Vagas de Estágio</p>
 
       <div className="m-auto text-justify w-full gap-12 pb-5 mb-10 space-y-4">
         <p>
@@ -33,14 +32,29 @@ export default function Intern() {
         <p>
           Para receber o valor, é necessário realizar uma cena com começo, meio
           e fim, adicionando a frase &quot;CENA PARA ESTÁGIO&quot; em spoiler no
-          final da postagem: <Quote>|| CENA PARA ESTÁGIO ||</Quote>
+          final da postagem:{' '}
+          {window.innerWidth >= 768 && <Quote>|| CENA PARA ESTÁGIO ||</Quote>}
         </p>
+        {window.innerWidth < 768 && (
+          <p className="text-center">
+            <Quote>|| CENA PARA ESTÁGIO ||</Quote>
+          </p>
+        )}
         <p>
           E lançar um dado no <Discord>#rolagem-de-dados</Discord>:{' '}
-          <Quote>
-            /roll notation:1d100*HORAS title:Estágio (NOME_DO_PERSONAGEM)
-          </Quote>
+          {window.innerWidth >= 768 && (
+            <Quote>
+              /roll notation:1d100*HORAS title:Estágio (NOME_DO_PERSONAGEM)
+            </Quote>
+          )}
         </p>
+        {window.innerWidth < 768 && (
+          <p className="text-xl leading-10">
+            <Quote>
+              /roll notation:1d100*HORAS title:Estágio (NOME_DO_PERSONAGEM)
+            </Quote>
+          </p>
+        )}
         <p>
           Cada função tem seus próprios atributos, escolha o cargo que melhor
           convir para o seu personagem e se inscreva na{' '}
@@ -48,9 +62,10 @@ export default function Intern() {
         </p>
         <p>
           Ps: Caso você acredite que algum outro estágio seja interessante para
-          o jogo, não hesite em sugerir à um ADM no privado ou no
+          o jogo, não hesite em sugerir à um ADM no privado ou no{' '}
+          {window.innerWidth < 768 && <Discord>#🐾sugestões</Discord>}
         </p>
-        <Discord>#🐾sugestões</Discord>
+        {window.innerWidth >= 768 && <Discord>#🐾sugestões</Discord>}
       </div>
 
       <div className="m-auto text-justify w-full gap-12 pb-5 mb-10 space-y-4">
@@ -68,10 +83,19 @@ export default function Intern() {
 
         <p>
           Lançamento de Dados:{' '}
-          <Quote>
-            /roll notation:1d100*1 title:Estágio (NOME_DO_PERSONAGEM)
-          </Quote>
+          {window.innerWidth >= 768 && (
+            <Quote>
+              /roll notation:1d100*1 title:Estágio (NOME_DO_PERSONAGEM)
+            </Quote>
+          )}
         </p>
+        {window.innerWidth < 768 && (
+          <p className="text-xl leading-10">
+            <Quote>
+              /roll notation:1d100*1 title:Estágio (NOME_DO_PERSONAGEM)
+            </Quote>
+          </p>
+        )}
         <p>
           Atributos Desenvolvidos: Carisma, Inteligência, Sabedoria e a
           disciplina em que auxiliará o professor. 1 vaga para cada disciplina.
@@ -118,7 +142,7 @@ export default function Intern() {
         </p>
       </div>
 
-      <div className="m-auto text-justify w-full gap-12 pb-5 mb-10 space-y-4">
+      <div className="m-auto text-justify w-full gap-12 pb-5 space-y-4">
         <p className="font-bold italic">Auxiliar de CEO, COO, CTO ou CMO</p>
         <p>
           Função: Ler e responder emails, manter contato com seus chefes e
@@ -159,10 +183,19 @@ export default function Intern() {
         </p>
         <p>
           Lançamento de Dados:{' '}
-          <Quote>
-            /roll notation:1d100*5 title:Estágio (NOME_DO_PERSONAGEM)
-          </Quote>
+          {window.innerWidth >= 768 && (
+            <Quote>
+              /roll notation:1d100*5 title:Estágio (NOME_DO_PERSONAGEM)
+            </Quote>
+          )}
         </p>
+        {window.innerWidth < 768 && (
+          <p className="text-xl leading-10">
+            <Quote>
+              /roll notation:1d100*5 title:Estágio (NOME_DO_PERSONAGEM)
+            </Quote>
+          </p>
+        )}
         <p>
           Requisitos: Carisma Nível 1, Inteligência Nível 2, Idade Real 16 anos.
         </p>
@@ -187,8 +220,6 @@ export default function Intern() {
           <span className="font-bold italic">vago</span>
         </p>
       </div>
-
-      <BackToTop />
     </div>
   )
 }

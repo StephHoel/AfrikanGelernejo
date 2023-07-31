@@ -1,3 +1,4 @@
+import { BackToTop } from '../../components/BackToTop'
 import { Link } from '../../components/Link'
 import Toggle from '../../components/Toggle'
 import { PageProps } from '../../lib/Interfaces'
@@ -5,7 +6,7 @@ import { PageProps } from '../../lib/Interfaces'
 export default function Jobs({ setPage }: PageProps) {
   return (
     <Toggle title="11. Empregos">
-      <div className="flex flex-col w-full m-auto space-y-8 text-justify mb-10">
+      <div className="flex flex-col w-full m-auto space-y-8 text-justify">
         <p>
           Esse sistema é para que o personagem possa ter uma ocupação em que
           continue evoluindo e ao mesmo tempo ganhe uns Ariary Madagáscar para
@@ -52,6 +53,7 @@ export default function Jobs({ setPage }: PageProps) {
           (Fixo) aqui
         </Link>
       </div>
+      <BackToTop />
     </Toggle>
   )
 }

@@ -1,4 +1,4 @@
-import Toggle from '../../components/Toggle'
+import { BackToTop } from '../../components/BackToTop'
 import {
   AbsorcaoDor,
   ControleGrito,
@@ -18,13 +18,14 @@ import {
   Teletransporte,
   VenenoParalisante,
 } from '../../components/Powers'
+import Toggle from '../../components/Toggle'
 
 export default function Powers() {
   return (
     <Toggle title="9. Poderes">
       <div
         id="9"
-        className="flex flex-col w-full m-auto space-y-8 text-justify mb-10"
+        className="flex flex-col w-full m-auto space-y-8 text-justify"
       >
         <p>
           Poderes são as habilidades próprias de cada raça, podendo ter várias
@@ -87,6 +88,7 @@ export default function Powers() {
 
         {VenenoParalisante()}
       </div>
+      <BackToTop />
     </Toggle>
   )
 }

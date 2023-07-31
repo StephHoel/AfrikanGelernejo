@@ -1,9 +1,10 @@
+import { BackToTop } from '../../components/BackToTop'
 import Toggle from '../../components/Toggle'
 
 export default function Races() {
   return (
     <Toggle title="7. Raças">
-      <div className="flex flex-col w-full m-auto space-y-8 text-justify mb-10">
+      <div className="flex flex-col w-full m-auto space-y-8 text-justify">
         <p>
           <span className="underline italic">7.</span>
           <span className="font-bold italic"> Raças </span>
@@ -51,6 +52,7 @@ export default function Races() {
 
         {Wiccaniano()}
       </div>
+      <BackToTop />
     </Toggle>
   )
 }

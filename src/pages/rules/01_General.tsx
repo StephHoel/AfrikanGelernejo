@@ -1,10 +1,11 @@
-import Toggle from '../../components/Toggle'
+import { BackToTop } from '../../components/BackToTop'
 import { Discord } from '../../components/Mods'
+import Toggle from '../../components/Toggle'
 
 export default function General() {
   return (
     <Toggle title="1. Regras Gerais">
-      <div className="w-full flex flex-col m-auto text-justify mb-10 space-y-8">
+      <div className="w-full flex flex-col m-auto text-justify space-y-8">
         <span>
           <span className="underline italic">1.</span>
           <span className="font-bold italic"> Regras Gerais</span>
@@ -223,6 +224,7 @@ export default function General() {
           coisas em nosso RPG, como comprar casas e níveis de EXP.
         </span>
       </div>
+      <BackToTop />
     </Toggle>
   )
 }

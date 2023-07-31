@@ -1,9 +1,8 @@
-import { BackToTop } from '../components/BackToTop'
 import { Discord, Quote } from '../components/Mods'
 
 export default function Jobs() {
   return (
-    <div className="flex flex-col w-[80%] m-auto">
+    <div className="flex flex-col laptop:w-[80%] m-auto">
       <p className="text-6xl mb-8 mx-auto">Vagas de Empregos Fixos</p>
 
       <div className="m-auto text-justify w-full gap-12 pb-5 mb-10 space-y-4">
@@ -201,8 +200,6 @@ export default function Jobs() {
           <span className="italic">Vaga</span>
         </p>
       </div>
-
-      <BackToTop />
     </div>
   )
 }

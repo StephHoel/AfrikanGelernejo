@@ -1,3 +1,4 @@
+import { BackToTop } from '../../components/BackToTop'
 import { Discord, Quote } from '../../components/Mods'
 import Toggle from '../../components/Toggle'
 
@@ -245,6 +246,7 @@ export default function DicesAndAttributes() {
           Basta à um ADM no privado.
         </p>
       </div>
+      <BackToTop />
     </Toggle>
   )
 }

@@ -1,3 +1,4 @@
+import { BackToTop } from '../../components/BackToTop'
 import { Discord } from '../../components/Mods'
 import Toggle from '../../components/Toggle'
 import ToggleUniform from '../../components/ToggleUniform'
@@ -25,7 +26,7 @@ import Volleyball from '../../components/Uniforms/Volleyball'
 export default function Uniforms() {
   return (
     <Toggle title="6. Uniformes, Materiais Escolares e Outros Itens">
-      <div className="flex flex-col w-full m-auto space-y-8 text-justify mb-10">
+      <div className="flex flex-col w-full m-auto space-y-8 text-justify">
         <p>
           <span className="underline italic">6.</span>{' '}
           <span className="font-bold italic">
@@ -133,6 +134,7 @@ export default function Uniforms() {
           <Discord>#loja-da-escola</Discord>.
         </p>
       </div>
+      <BackToTop />
     </Toggle>
   )
 }

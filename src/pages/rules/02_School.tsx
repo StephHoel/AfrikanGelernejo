@@ -1,10 +1,11 @@
+import { BackToTop } from '../../components/BackToTop'
 import { Discord, Quote } from '../../components/Mods'
 import Toggle from '../../components/Toggle'
 
 export default function School() {
   return (
     <Toggle title="2. Regras Escolares">
-      <div className="flex flex-col w-full m-auto space-y-8 text-justify mb-10">
+      <div className="flex flex-col w-full m-auto space-y-8 text-justify">
         <span>
           <span className="underline italic">2.</span>
           <span className="font-bold italic"> Regras Escolares </span>
@@ -311,6 +312,7 @@ export default function School() {
           universidade...
         </span>
       </div>
+      <BackToTop />
     </Toggle>
   )
 }

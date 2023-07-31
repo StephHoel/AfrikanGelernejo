@@ -6,7 +6,7 @@ interface Props {
 
 export function Quote({ children }: Props) {
   return (
-    <span className="bg-[#00000080] rounded-xl py-1 px-4 text-left">
+    <span className="bg-[#00000080] rounded-xl py-1 px-4 text-left no-laptop:leading-loose">
       {children}
     </span>
   )
