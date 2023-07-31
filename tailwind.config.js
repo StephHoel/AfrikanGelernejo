@@ -9,7 +9,7 @@ export const theme = {
       sm: { min: '281px', max: '320px' }, // mobile small
       lg: { min: '321px', max: '426px' }, // mobile large
       tablet: { min: '427px', max: '768px' },
-      laptop: { min: '769px', max: '1024px' },
+      laptop: { min: '769px' },
       'no-laptop': { max: '768px' },
     },
     boxShadow: {
