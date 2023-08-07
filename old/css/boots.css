@@ -1,0 +1,36 @@
+.bold {
+   font-weight: bold;
+}
+
+.underline {
+   text-decoration: underline;
+}
+
+.italic {
+   font-style: italic;
+}
+
+// bg-[#00000080] rounded-2xl py-[5px] px-[15px] text-left
+.quote{
+   background: #00000080;
+   border-radius: 15px;
+   padding: 5px 15px 5px 15px;
+   text-align: left;
+}
+
+// bg-[#504eee80] rounded py-[1px] px-[5px]
+.discord{
+   background: #504eee80;
+   border-radius: 5px;
+   padding: 1px 5px 1px 5px;
+}
+
+// visited:text-[#f0f8ff] 00a6ff
+.discord:visited, discord:link{
+   color: #f0f8ff;
+}
+
+.emoji{
+   width: 1.375em;
+   height: 1.375em;
+}
